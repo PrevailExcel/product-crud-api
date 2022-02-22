@@ -2,8 +2,8 @@
 class Database {
 	private $host = "127.0.0.1";
 	private $database_name = "crudapi";
-	private $username = "phpmyadmin";
-	private $password = "root";
+	private $username = "yourusername";
+	private $password = "yourpassword";
 	public $conn;
 	public function getConnection(){
 		$this->conn = null;
